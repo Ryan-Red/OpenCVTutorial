@@ -1,6 +1,8 @@
 
 import cv2
+global path
 
+path = "C:/Users/Ryan/source/repos/OpenCVTutorial"
 img = cv2.imread(path + "/images/input.jpg",0) #0 is to greyscale the image automatically
 
 cv2.imshow('Greyscaled',img)
