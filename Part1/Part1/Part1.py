@@ -1,5 +1,7 @@
 import cv2
 import numpy as np
+global path
+
 path = "C:/Users/Ryan/source/repos/OpenCVTutorial"
 input_image = cv2.imread(path + "/images/input.jpg")
 
